@@ -3,67 +3,26 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
-type FeatureItem = {
-  title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
-  description: ReactNode;
-};
-
-const FeatureList: FeatureItem[] = [
-  {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
-];
-
-function Feature({title, Svg, description}: FeatureItem) {
-  return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
-    </div>
-  );
-}
-
 export default function HomepageFeatures(): ReactNode {
   return (
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+          <div className="col col--12">
+            {/* Centered text with limited width */}
+            <div className={styles.textContainer}>
+              <Heading as="h2" className="text--center">Abstract</Heading>
+              <p>
+                MotionInput is an accessibility software designed to empower individuals with limited mobility or physical disabilities by providing an intuitive and touchless means of interacting with their computer and playing games. Our project focuses on three critical aspects of MotionInput: error correction, efficiency, and integration.
+              </p>
+              <p>
+                Through cooperation with teachers and occupational therapists at various schools, we were able to conduct extensive user testing of MotionInput with students and children with special needs. Additionally, we performed testing with teachers and educators to gather their feedback and insights. This collaboration allowed us to ensure that the software meets the unique requirements of our target users and is suitable for use in educational settings. By identifying and addressing the most common failure modes, we have worked to improve the accessibility and usability of MotionInput.
+              </p>
+              <p>
+                Secondly, we have improved the efficiency of MotionInput by running a performance profile and implementing a real-time mode for performance-sensitive features. These improvements enable teachers with older hardware to use advanced MotionInput modes like virtual pen inking, thereby increasing their ability to deliver interactive lessons.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'BabylonStudion - Team 24',
+  tagline: 'Babylon.js GPU Shader and ReShade API exploration',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -59,27 +59,66 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'BabylonSudio Team 24',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'BabylonStudio Logo',
+        src: 'img/babylonstudio-logo.png',
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          to: '/docs/requirements', // direct link
           position: 'left',
-          label: 'Tutorial',
+          label: 'Requirements',
+        },          
+        {
+          to: '/docs/hci', // Direct link to HCI page
+          position: 'left',
+          label: 'HCI',
         },
+        {
+          to: '/docs/research',
+          position: 'left',
+          label: 'Research',
+        },
+        {
+          to: 'docs/algorithms',
+          position: 'left',
+          label: 'Algorithms',
+        },
+        {
+          to: 'docs/uidesign',
+          position: 'left',
+          label: 'UI Design',
+        }, 
+        {
+          to: 'docs/systemdesign',
+          position: 'left',
+          label: 'System Design',
+        },
+        {
+          to: 'docs/implementation',
+          position: 'left',
+          label: 'Implementation',
+        },
+        {
+        to: 'docs/testing',
+        position: 'left',
+        label: 'Testing',
+        },
+        {
+          to: 'docs/evaluation',
+          position: 'left',
+          label: 'Evaluation',
+        },                 
         {
           label: 'Blog',
           href: 'https://ritzy-cabbage-d26.notion.site/Blogs-1a637ba107ab805586dae48485960dc8?pvs=4', // Replace with Notion URL
           position: 'left',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          href: 'https://github.com/saracr12345/COMP0016-report.git', //add notion web for appendices
+          label: 'Appendices',
+          position: 'left',
         },
       ],
     },footer: {

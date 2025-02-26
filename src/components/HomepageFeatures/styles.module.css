@@ -9,3 +9,10 @@
   height: 200px;
   width: 200px;
 }
+
+.textContainer {
+  max-width: 800px; /* Limit text width */
+  margin: 0 auto; /* Center the text */
+  text-align: justify; /* Optional: Justifies text for better readability */
+  padding: 20px; /* Adds some spacing */
+}
