@@ -16,3 +16,9 @@
   text-align: justify; /* Optional: Justifies text for better readability */
   padding: 20px; /* Adds some spacing */
 }
+
+.affiliatesImage {
+  max-width: 60%; /* Resize image */
+  display: block;
+  margin: 0 auto 20px auto; /* Center the image and add space below */
+}

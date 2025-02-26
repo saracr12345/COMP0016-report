@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'BabylonStudion - Team 24',
+  title: 'BabylonStudio - Team 24',
   tagline: 'Babylon.js GPU Shader and ReShade API exploration',
   favicon: 'img/favicon.ico',
 
@@ -121,51 +121,42 @@ const config: Config = {
           position: 'left',
         },
       ],
-    },footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              href: 'https://ritzy-cabbage-d26.notion.site/Blogs-1a637ba107ab805586dae48485960dc8?pvs=4', // Replace with your Notion URL
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
+      footer: {
+        style: 'dark',
+        links: [
+          {
+            items: [
+              {
+                html: `
+                  <div style="text-align: center; margin-bottom: 1rem; color: #fff;">
+                    <a href="/docs/requirements" style="color: #fff; text-decoration: none;">Requirements</a> |
+                    <a href="/docs/hci" style="color: #fff; text-decoration: none;">HCI</a> |
+                    <a href="/docs/research" style="color: #fff; text-decoration: none;">Research</a> |
+                    <a href="/docs/algorithms" style="color: #fff; text-decoration: none;">Algorithms</a> |
+                    <a href="/docs/uidesign" style="color: #fff; text-decoration: none;">UI Design</a> |
+                    <a href="/docs/systemdesign" style="color: #fff; text-decoration: none;">System Design</a> |
+                    <a href="/docs/implementation" style="color: #fff; text-decoration: none;">Implementation</a> |
+                    <a href="/docs/testing" style="color: #fff; text-decoration: none;">Testing</a> |
+                    <a href="/docs/evaluation" style="color: #fff; text-decoration: none;">Evaluation</a> |
+                    <a href="https://ritzy-cabbage-d26.notion.site/Blogs-1a637ba107ab805586dae48485960dc8?pvs=4" 
+                       target="_blank" 
+                       rel="noopener" 
+                       style="color: #fff; text-decoration: none;">
+                      Blog
+                    </a>
+                  </div>
+                `,
+              },
+            ],
+          },
+        ],
+        copyright: `
+          Copyright © ${new Date().getFullYear()}
+          BabylonStudio Team 24
+        `,
+      },
+      
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,

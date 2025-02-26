@@ -9,17 +9,27 @@ export default function HomepageFeatures(): ReactNode {
       <div className="container">
         <div className="row">
           <div className="col col--12">
-            {/* Centered text with limited width */}
+            
+            {/* Affiliates Image */}
+            <div className="text--center">
+              <img 
+                src="/img/affiliates.jpeg" 
+                alt="Affiliates Logos"
+                className={styles.affiliatesImage} 
+              />
+            </div>
+
+            {/* Abstract Text */}
             <div className={styles.textContainer}>
               <Heading as="h2" className="text--center">Abstract</Heading>
               <p>
-                MotionInput is an accessibility software designed to empower individuals with limited mobility or physical disabilities by providing an intuitive and touchless means of interacting with their computer and playing games. Our project focuses on three critical aspects of MotionInput: error correction, efficiency, and integration.
+                Babylon Studio is a lightweight, web-based platform designed to demystify advanced 3D development concepts for learners. Our project addresses the challenges faced by students and educators, where traditional game engines and 3D tools overwhelm users with technical jargon and complex interfaces.
               </p>
               <p>
-                Through cooperation with teachers and occupational therapists at various schools, we were able to conduct extensive user testing of MotionInput with students and children with special needs. Additionally, we performed testing with teachers and educators to gather their feedback and insights. This collaboration allowed us to ensure that the software meets the unique requirements of our target users and is suitable for use in educational settings. By identifying and addressing the most common failure modes, we have worked to improve the accessibility and usability of MotionInput.
+                Leveraging Babylon.js, Babylon Studio provides an intuitive, block-based control system that enables users to import and manipulate objects with ease. Through interactive blocks, users can adjust material parameters, modify scene conditions, and experiment with GPU shader effects in real time.
               </p>
               <p>
-                Secondly, we have improved the efficiency of MotionInput by running a performance profile and implementing a real-time mode for performance-sensitive features. These improvements enable teachers with older hardware to use advanced MotionInput modes like virtual pen inking, thereby increasing their ability to deliver interactive lessons.
+                Additionally, our platform integrates the ReShade API to offer an accessible exploration of post-processing techniques and retro aesthetic effects. An integrated AI assistant guides users in applying these effects, bridging the gap between theoretical learning and practical application. By simplifying the exploration of GPU shaders and modern rendering techniques, Babylon Studio aims to enhance understanding and spark innovation in 3D modeling and game development education.
               </p>
             </div>
           </div>
