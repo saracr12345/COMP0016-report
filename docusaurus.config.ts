@@ -37,32 +37,23 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        // Remove the blog plugin
+        // blog: {
+        //   showReadingTime: true,
+        //   feedOptions: {
+        //     type: ['rss', 'atom'],
+        //     xslt: true,
+        //   },
+        //   editUrl:
+        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        // },
         theme: {
           customCss: './src/css/custom.css',
         },
       } satisfies Preset.Options,
     ],
-  ],
+  ],  
 
   themeConfig: {
     // Replace with your project's social card
@@ -80,15 +71,18 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          label: 'Blog',
+          href: 'https://ritzy-cabbage-d26.notion.site/Blogs-1a637ba107ab805586dae48485960dc8?pvs=4', // Replace with Notion URL
+          position: 'left',
+        },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
           position: 'right',
         },
       ],
-    },
-    footer: {
+    },footer: {
       style: 'dark',
       links: [
         {
@@ -122,7 +116,7 @@ const config: Config = {
           items: [
             {
               label: 'Blog',
-              to: '/blog',
+              href: 'https://ritzy-cabbage-d26.notion.site/Blogs-1a637ba107ab805586dae48485960dc8?pvs=4', // Replace with your Notion URL
             },
             {
               label: 'GitHub',
