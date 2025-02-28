@@ -21,7 +21,7 @@ export default function HomepageFeatures(): ReactNode {
 
             {/* Abstract Text */}
             <div className={styles.textContainer}>
-              <Heading as="h2" className="text--center">Abstract</Heading>
+              <Heading as="h1" className="text--center">Abstract</Heading>
               <p>
                 Babylon Studio is a lightweight, web-based platform designed to demystify advanced 3D development concepts for learners. Our project addresses the challenges faced by students and educators, where traditional game engines and 3D tools overwhelm users with technical jargon and complex interfaces.
               </p>
@@ -32,6 +32,16 @@ export default function HomepageFeatures(): ReactNode {
                 Additionally, our platform integrates the ReShade API to offer an accessible exploration of post-processing techniques and retro aesthetic effects. An integrated AI assistant guides users in applying these effects, bridging the gap between theoretical learning and practical application. By simplifying the exploration of GPU shaders and modern rendering techniques, Babylon Studio aims to enhance understanding and spark innovation in 3D modeling and game development education.
               </p>
             </div>
+
+            {/* Introduction and Project Demo */}
+            <div className={styles.textContainer}>
+              <Heading as="h1" className="text--center">Introduction and Project Demo</Heading>
+              {/* Centered Video Placeholder */}
+              <div style={{ display: "flex", justifyContent: "center", alignItems: "center", textAlign: "center", height: "100px" }}>
+                <p>*** VIDEO ***</p>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
