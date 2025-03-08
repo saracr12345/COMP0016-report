@@ -8,7 +8,7 @@ hide_table_of_contents: false
 ---
 
 # HCI
-
+_(Please note that our project requirements and specifications have been refined throughout development to align with the feasibility of creating an effective and practical platform.)_
 ## Section 1 - Discovering user requirements ​
 
 ​Our research focused on identifying the most effective method for gathering user feedback to refine our app’s functionality. After evaluating various data collection approaches, we determined that a questionnaire combining multiple-choice and short paragraph questions would be the most suitable. This method ensures clarity and accessibility for our target audience—children aged 8 to 14—allowing them to express their thoughts effectively.

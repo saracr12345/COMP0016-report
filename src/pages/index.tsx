@@ -11,14 +11,19 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
-        <div className="container">
-          <Heading as="h1" className="hero__title">
-            {siteConfig.title}
-          </Heading>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <div className="container">
+        <Heading as="h1" className="hero__title">
+          {siteConfig.title}
+        </Heading>
+        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        
+        {/* Add GIF Below the Text */}
+        <div className={styles.gifContainer}>
+          <img src="/img/demo.gif" alt="Project Demo GIF" className={styles.gif} />
         </div>
-      </header>
+      </div>
+    </header>
   );
 }
 

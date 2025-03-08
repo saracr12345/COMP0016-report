@@ -3,12 +3,27 @@
  * and scoped locally.
  */
 
-.heroBanner {
-  padding: 4rem 0;
+ .heroBanner {
+  min-height: 500px; /* Adjust height */
+  padding-bottom: 2rem; /* Add space for the GIF */
+  background-color: #666; /* Keep grey */
+  height: 400px; /* Increase height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  position: relative;
-  overflow: hidden;
 }
+.gifContainer {
+  margin-top: 20px; /* Add spacing between text and GIF */
+}
+
+.gif {
+  max-width: 300px; /* Adjust size as needed */
+  height: auto;
+  border-radius: 10px;
+}
+
 
 @media screen and (max-width: 996px) {
   .heroBanner {
