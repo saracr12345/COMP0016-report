@@ -130,15 +130,15 @@ const config: Config = {
               {
                 html: `
                   <div style="text-align: center; margin-bottom: 1rem; color: #fff;">
-                    <a href="/docs/requirements" style="color: #fff; text-decoration: none;">Requirements</a> |
-                    <a href="/docs/hci" style="color: #fff; text-decoration: none;">HCI</a> |
-                    <a href="/docs/research" style="color: #fff; text-decoration: none;">Research</a> |
-                    <a href="/docs/algorithms" style="color: #fff; text-decoration: none;">Algorithms</a> |
-                    <a href="/docs/uidesign" style="color: #fff; text-decoration: none;">UI Design</a> |
-                    <a href="/docs/systemdesign" style="color: #fff; text-decoration: none;">System Design</a> |
-                    <a href="/docs/implementation" style="color: #fff; text-decoration: none;">Implementation</a> |
-                    <a href="/docs/testing" style="color: #fff; text-decoration: none;">Testing</a> |
-                    <a href="/docs/evaluation" style="color: #fff; text-decoration: none;">Evaluation</a> |
+                    <a href="/docs/requirements" style="color: #fff; text-decoration: none;">Requirements</a> ·
+                    <a href="/docs/hci" style="color: #fff; text-decoration: none;">HCI</a> ·
+                    <a href="/docs/research" style="color: #fff; text-decoration: none;">Research</a> ·
+                    <a href="/docs/algorithms" style="color: #fff; text-decoration: none;">Algorithms</a> ·
+                    <a href="/docs/uidesign" style="color: #fff; text-decoration: none;">UI Design</a> ·
+                    <a href="/docs/systemdesign" style="color: #fff; text-decoration: none;">System Design</a> ·
+                    <a href="/docs/implementation" style="color: #fff; text-decoration: none;">Implementation</a> ·
+                    <a href="/docs/testing" style="color: #fff; text-decoration: none;">Testing</a> ·
+                    <a href="/docs/evaluation" style="color: #fff; text-decoration: none;">Evaluation</a> ·
                     <a href="https://ritzy-cabbage-d26.notion.site/Blogs-1a637ba107ab805586dae48485960dc8?pvs=4" 
                        target="_blank" 
                        rel="noopener" 
