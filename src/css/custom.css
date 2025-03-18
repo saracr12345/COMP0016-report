@@ -17,10 +17,10 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 .hero--primary {
-  background-color: #808080 !important;
+  background-color: #e07c68 !important;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+
 [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
@@ -30,4 +30,43 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/*Navbar Background Color */
+.navbar {
+  background-color: #b9474c  !important; 
+}
+
+.navbar__brand, .navbar__items a {
+  color: #ffffff !important; /*white text */
+}
+
+/*Footer Background*/
+.footer {
+  background-color: #b9474c !important; 
+  color: white !important; 
+}
+
+/* Footer Color */
+.footer a {
+  color: #ffffff !important; 
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  color: #7a2e2e !important;  
+}
+
+.brown {
+  color: #7a2e2e !important; /* Dark Orange */
+  font-weight: bold;
+}
+
+.orange {
+  color: #df684c !important; /* Dark Orange */
+  font-weight: bold;
 }

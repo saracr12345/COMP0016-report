@@ -88,7 +88,7 @@ export default function HomepageFeatures(): ReactNode {
                       alt={member.name} 
                       className={styles.teamMemberImage} 
                     />
-                    <Heading as="h3">{member.name}</Heading>
+                    <Heading as="h3" className="orange">{member.name}</Heading>
                     <p>{member.role}</p>
                   </div>
                 ))}
