@@ -105,3 +105,107 @@ Use cases are crucial in understanding the functional requirements of a system o
 ### Section 3.1 - 8-Year-Old Student Use Case Diagram
 
 </div>
+*** USE CASE DIAGRAM ***
+
+<div class="brown">
+
+## Section 4 - MoSCoW Requirements
+
+### Section 4.1 - MoSCoW Requirements (Functional)
+</div>
+
+---
+<div class="brown">
+
+#### Must Have 
+
+</div>
+- System will have intuitive block based interface which will provide drag-and-drop components for users to configure 3D objects, animations, and post-processing effects without coding with instant visual feedback.
+
+- System will have visual depth with a rich material system that supports glowing effects, metallic finishes, rough textures.
+
+- System will have intuitive camera controls (orbit, pan, zoom) with mouse and keyboard.
+
+- System will have simple, intuitive animation system that brings objects to life through movement. This will allow objects like spheres to shift positions, rotate? etc...(fill in) making interactions engaging.
+
+---
+<div class="brown">
+
+#### Should Have 
+</div>
+- System will include an AI assistant for guidance and help that suggests step by step instructions, identifies common mistakes and suggests solutions, and explains Babylon.js features.
+
+- Support industry-standard formats such as .gltf, .obj, and .fbx for model import.- expand 
+
+---
+<div class="brown">
+
+#### Could Have 
+</div>
+- Export to Babylon.js Playground – Allow users to send their created scenes directly to the Babylon.js Playground for further testing.
+
+- Shared library where users share their work and get inspired by other 
+
+- Physics-Based Interactions – Include basic physics for realistic object movement, gravity, and collisions.
+
+- Multi-User Collaboration – Enable real-time scene sharing and editing with live preview updates between users.
+
+---
+<div class="brown">
+
+#### Won't Have 
+</div>
+- Export to Other 3D Engines – No direct export support for Unity, Unreal, or Blender; focus remains on Babylon.js compatibility.
+
+- Multi-Language Support – The platform will be developed only in English for now, with no translations planned.
+
+- Offline Mode – Babylon Studio requires an internet connection; no local installation or offline functionality will be included.
+
+---
+<div class="brown">
+
+### Section 4.2 - MoSCoW Requirements (Non-Functional)
+</div>
+---
+<div class="brown">
+
+#### Must Have 
+
+</div>
+- The platform must be accessible through modern web browsers without requiring special installations.
+
+- The UI should handle user interactions instantly (eg. reflecting block changes, camera movements) to maintain a smooth experience.
+
+- The layout, icons, and block structures must be straightforward, to maintain usability guidelines and ensure the system is easy to learn.
+
+---
+<div class="brown">
+
+#### Should Have 
+</div>
+
+- The system will be compatible with multiple devices.
+
+- Babylon Studio should run effectively on a range of systems: laptops, desktops, and *tablets* with moderate GPU/CPU capabilities.
+
+---
+<div class="brown">
+
+#### Could Have 
+</div>
+
+- Structure the codebase to easily accommodate future blocks or AI features without major refactoring.
+
+- The system ensures compatibility with a wide range of hardware and software platforms for seamless operation.
+
+- System will be maintainable with modular code, thus structuring the codebase to easily accommodate future blocks, functionalities and AI features without major refactoring.
+
+- Enhance cross-platform compatibility to ensure seamless operation across various operating systems and environments.
+
+---
+<div class="brown">
+
+#### Won't Have 
+</div>
+
+- Enable support for multiple languages and regions to ensure a versatile and inclusive user experience.
